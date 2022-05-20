@@ -1,0 +1,27 @@
+using System;
+
+namespace ConsoleApp11
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("eded daxil edin");
+            int a = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("eded daxil edin");
+            int b = Convert.ToInt32(Console.ReadLine());
+
+            int result = 0;
+
+            for (int i = 1; i <= b; i = i + 2)
+            {
+                result = result + i;
+
+            }
+
+
+            Console.WriteLine(+a + " bu eded ile " + b + " bu eded arasindaki tek reqemlerin cemi: " + result.ToString());
+        }
+    }
+}
